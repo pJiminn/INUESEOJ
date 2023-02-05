@@ -1,0 +1,29 @@
+// 문제 설명
+// 출력 연습 마지막 문제이다.
+// 아래와 같은 C언어소스코드를 그대로 출력하시오.
+// #include <stdio.h>
+// int main()
+// {
+//     printf("Hello World\n");
+//     return 0;
+// }
+// (주의 : 줄바꿈, 공백, 특수문자 등이 모두 정확히 출력되어야 한다. 들여쓰기는 공백문자 4개로 한다.)
+
+// 출력
+// #include <stdio.h>
+// int main()
+// {
+//     printf("Hello World\n");
+//     return 0;
+// }
+
+
+#define _CRT_SECURE_NO_WARNINGS
+#include <stdio.h>
+
+int main() {
+	printf("#include <stdio.h>\nint main()\n{\n    printf(\"Hello World\\n\");\n    return 0;\n}");
+	
+
+	return 0;
+}

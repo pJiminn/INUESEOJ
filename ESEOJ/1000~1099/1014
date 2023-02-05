@@ -1,0 +1,20 @@
+// 문제 설명
+// 키보드로 입력한 정수값을, 그대로  출력하는 프로그램을 작성해보자.
+
+// 입력
+// 정수값 한 개가 입력된다.
+
+// 출력
+// 입력된 정수를 그대로 출력한다.
+
+
+#define _CRT_SECURE_NO_WARNINGS
+#include <stdio.h>
+
+int main() {
+int A;
+scanf("%d",&A);
+	printf("%d",A);
+	
+	return 0;
+}
