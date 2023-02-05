@@ -1,0 +1,23 @@
+// 문제 설명
+// 10진법 정수를 입력받아 8진수로 출력해보자.
+
+// 입력
+// 10진 정수가 1개 입력된다.
+// (단, 입력되는 정수는 int범위이다.)
+
+// 출력
+// 8진수로 바뀌어 출력한다.
+
+
+#define _CRT_SECURE_NO_WARNINGS
+#include <stdio.h>
+
+int main() {
+	int n;
+
+	scanf("%d", &n);
+
+	printf("%o", n);
+
+	return 0;
+}
