@@ -1,0 +1,25 @@
+// 문제 설명
+// 시:분:초 형태로 입력 받아
+// 분 만 출력해보자.
+
+// 입력
+// 시 분 초가
+// 시:분:초로 입력된다.
+
+// 출력
+// 분 만 출력한다.
+
+#define _CRT_SECURE_NO_WARNINGS
+#include <stdio.h>
+
+int main() {
+const int h,m,s;
+
+scanf("%d:%d:%d", &h, &m, &s);
+
+
+		printf("%d", m);
+			
+
+	return 0;
+}
